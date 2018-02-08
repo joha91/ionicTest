@@ -1,10 +1,21 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Current Temperature</ion-title>
+    <ion-title>Aktuelle Temperatur</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Display current Temperature</h2>
+<ion-content>
+
+  <ion-item>
+    <ion-icon name="laptop" item-start></ion-icon>
+    Temperatur
+    <ion-badge item-end>{{currentTemperature}} &#x2103;</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name="laptop" item-start></ion-icon>
+    Temperatur
+    <ion-badge item-end>{{remoteWeatherTemp}} &#x2103;</ion-badge>
+  </ion-item>
 
 </ion-content>
